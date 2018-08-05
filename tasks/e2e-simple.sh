@@ -153,7 +153,7 @@ git clean -df
 
 # Install the app in a temporary location
 cd $temp_app_path
-npx create-react-app test-app
+npx create-react-app --scripts-version=@aeldar/react-scripts test-app
 
 # TODO: verify we installed prerelease
 
